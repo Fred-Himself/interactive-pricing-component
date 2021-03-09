@@ -155,6 +155,7 @@ main {
 
     /* -- PRICE -- */
     .price {
+        align-self: center;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -187,9 +188,9 @@ main {
             grid-row: 2;
         }
         .price {
+            align-self: end;
             grid-column: 2 / 3;
             grid-row: 1;
-            align-self: right;
             justify-content: right;
 
             .price-details {
