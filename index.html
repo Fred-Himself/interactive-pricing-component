@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/styles.css" />
+  
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; margin: 15px 0; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+
+  </head>
+
+  <body>
+
+    <main>
+      <div id="head-titles">
+        <img src="images/pattern-circles.svg" alt="Circles" />
+        <h1>Simple, traffic-based pricing</h1>
+        <h3>
+          <div>Sign-up for our 30-day trial. </div>
+          <div>No credit card required.</div>
+        </h3>
+      </div>
+      <div id="white-box">
+        <div class="price-views">
+          <div class="views"><span>100K</span>Pageviews</div>
+          <div class="slider-box">
+            <input type="range" id="slider" name="slider" min="0" max="4" value="2" step="1" />
+          </div>
+          <div class="price">
+            <div class="price-details">$16.00</div>
+            <div class="per-month">/ month</div>
+          </div>
+        </div>
+        <div class="discount-toggle">
+          <p>Monthly Billing</p>
+          <label class="toggle-button">
+            <input id="checkbox-button" type="checkbox" />
+            <span class="toggle"></span>
+          </label>
+          <p class="discount-text">Yearly Billing</p>
+        </div>
+        <div class="footer">
+          <div class="advantages">
+            <ul>
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+          </div>
+          <div class="trial-button">
+            <a href="#">Start my trial</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Fred-Himself">FredHimself</a>.
+    </div>
+
+    <script type="text/javascript" src="app/js/script.js"></script>
+
+  </body>
+
+</html>
