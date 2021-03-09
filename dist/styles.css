@@ -166,8 +166,6 @@ main {
 }
 
 .price-views .price {
-  -ms-flex-item-align: center;
-      align-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,9 +214,8 @@ main {
     grid-row: 2;
   }
   .price-views .price {
-    -ms-flex-item-align: end;
-        -ms-grid-row-align: end;
-        align-self: end;
+    -ms-grid-column-align: end;
+        justify-self: end;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
